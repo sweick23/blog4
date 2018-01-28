@@ -6,13 +6,12 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  <link rel="stylesheets" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
     <header>
       <%= link_to "Home", root_path %>
-        <i class="fa fa-plus-circle"> </i> <%= link_to "New Post", new_post_path %>
+       <%= link_to "New Post", new_post_path %>
     </header>
 
     <%= yield %>
