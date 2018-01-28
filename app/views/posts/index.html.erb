@@ -1,0 +1,16 @@
+<% @posts.each do |post| %>
+<div class="post_page">
+<h1> <%= post.title %></h1>
+<div>
+  <%= truncate(post.body, :length => 140) %>
+</div>
+<br />
+<div>
+<i class="fa fa-plus-circle" aria-hidden="true"></i>
+
+</div>
+<%= link_to "Read Post", post %>
+</div>
+
+
+<%end%>

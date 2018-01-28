@@ -13,3 +13,63 @@
  *= require_tree .
  *= require_self
  */
+
+
+header{
+  padding: 5px;
+  background: #BBB;
+  width: 101.2%;
+  margin-left: -8px;
+  margin-top: -13px;
+  height: 30px;
+  box-shadow: 2px 3px 3px black;
+}
+
+header a {
+  padding-top: -15px;
+}
+
+
+
+ input[type=text]{
+   padding: 5px;
+   border-radius: 5px;
+   background: #DDD;
+   width: 20%;
+ }
+
+ textarea{
+   background: #DDD;
+   padding: 5px;
+   border-radius: 5px;
+   width: 40%;
+   height: 160px;
+ }
+
+ input[type=submit]{
+   background: lightblue;
+   border-radius: 5px;
+ }
+
+ a{
+   text-decoration: none;
+   color: black;
+ }
+
+ a:hover{
+   color: blue;
+
+ }
+
+ .post_page{
+   padding: 0 10px 10px 10px;
+   background: white;
+   border: 1px solid black;
+   border-radius: 5px;
+   width: 35%;
+   box-shadow: 2px 3px 4px black;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   display: block;
+ }
